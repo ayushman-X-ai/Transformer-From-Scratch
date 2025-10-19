@@ -45,18 +45,33 @@ Input → Embedding → Positional Encoding →
 ## 📂 Project Structure
 
 pytorch-transformer/
+
 │
+
 ├── transformer/
+
 │ ├── embeddings.py
+
 │ ├── positional_encoding.py
+
 │ ├── attention.py
+
 │ ├── encoder.py
+
 │ ├── decoder.py
+
 │ ├── transformer.py
+
 │ └── utils.py
+
 │
+
 ├── train.py
+
 ├── evaluate.py
+
 ├── visualize_attention.py
+
 ├── requirements.txt
+
 └── README.md
